@@ -27,6 +27,7 @@ The following Pmods are currently supported:
 * `PmodMIC3 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346475/>`_ MEMS Microphone Module
 * `PmodOLEDrgb <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346481/>`_ 96x64 RGB OLED Display :sup:`1`
 * `PmodTC1 <https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1346476/>`_ K Type Thermocouple Module with Wire
+*  `PmodGyro <https://reference.digilentinc.com/reference/pmod/pmodgyro/start/>`_ Pmod GYRO (Revision A) utilizes ST L3G4200D gyroscope 
 
 :sup:`1` *Builds on the excellent luma.oled and luma.core libraries from Richard Hull and contributors.*
 
