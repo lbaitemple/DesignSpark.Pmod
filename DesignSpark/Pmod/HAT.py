@@ -14,6 +14,7 @@ from DesignSpark.Pmod import MIC3
 from DesignSpark.Pmod import HB3
 from DesignSpark.Pmod import ISNS20
 from DesignSpark.Pmod import OLEDrgb
+from DesignSpark.Pmod import Gyro
 from DesignSpark.Pmod import Error
 
 # Physical pin map of Pmod to BCM I/O
@@ -63,7 +64,8 @@ moduleDict = {
     'MIC3': MIC3,
     'HB3': HB3,
     'ISNS20': ISNS20,
-    'OLEDrgb': OLEDrgb
+    'OLEDrgb': OLEDrgb,
+    'Gyro': Gyro
     }
 
 capabilityDict = {
@@ -172,6 +174,9 @@ def createPmod(moduleName, portName):
         
         if moduleName == 'OLEDrgb':
             return OLEDrgb.PmodOLEDrgb(port)
+        
+        if moduleName == 'Gyro':
+            return Gyro.PmodGyro(port)
         
     
 class DSPMod6:
