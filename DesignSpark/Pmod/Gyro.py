@@ -84,6 +84,7 @@ class PmodGyro:
                 break;
             else:
                 print("bad")
+		sleep(1);  
 
         # write 0 into REG3
         self.writeReg(CTRL_REG1, 0x0F)
