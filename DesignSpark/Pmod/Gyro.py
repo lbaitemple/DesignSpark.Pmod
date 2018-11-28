@@ -57,10 +57,7 @@ class PmodGyro:
 
         while True: 
            if (gpio.input(self.int2) == True): # Physically read the pin now
-                    print('3.3')
-                    break;
-           else:
-                    print('0')
+                     break;
            sleep(1);           # Sleep for a full second before restarting our loop
 
 
