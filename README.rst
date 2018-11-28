@@ -36,9 +36,9 @@ Installation
 
 DesignSpark.Pmod can be installed from PyPi using pip. See the documentation for details.
 
-``
+```
 sudo python setup.py install_lib
-``
+```
 
 
 Documentation
