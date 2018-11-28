@@ -49,11 +49,10 @@ sudo python setup.py install_lib
 ```
 
 To run an example of Gyro, you can do
-```
-cd docs/examples/
-```
 
 ```
+cd docs/examples/
+
 python runGyro.py
 ```
 
