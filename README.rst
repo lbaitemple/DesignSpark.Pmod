@@ -52,7 +52,9 @@ To run an example of Gyro, you can do
 
 ```
 cd docs/examples/
+```
 
+```
 python runGyro.py
 ```
 
