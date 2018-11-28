@@ -37,13 +37,20 @@ Installation
 DesignSpark.Pmod can be installed from PyPi using pip. See the documentation for details.
 
 ```
-* cd DesignSpark.Pmod/
-* sudo python setup.py install_lib
+git clone https://github.com/lbaitemple/DesignSpark.Pmod/
+```
+```
+cd DesignSpark.Pmod/
+```
+```
+sudo python setup.py install_lib
 ```
 
 To run an example of Gyro, you can do
 ```
 cd docs/examples/
+```
+```
 python runGyro.py
 ```
 
