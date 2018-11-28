@@ -8,7 +8,7 @@ setup(
     name = 'DesignSpark.Pmod',
     namespace_packages=['DesignSpark'],
     packages = ['DesignSpark.Pmod'],
-    version = '0.2.0',
+    version = '0.2.1',
     description = 'Raspberry Pi Pmod HAT support library',
     author = 'RS Components',
     author_email = 'maint@abopen.com',
